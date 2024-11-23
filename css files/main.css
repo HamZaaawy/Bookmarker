@@ -178,3 +178,25 @@ td #delBtn:hover {
   color: var(--color-one);
 }
 /* ============== */
+@media (max-width: 640px) {
+  h2 {
+    font-size: 18px !important;
+    text-wrap: nowrap;
+  }
+
+  th {
+    font-size: 15px;
+  }
+  td #visitBtn {
+    padding: 2px 10px;
+  }
+
+  td #delBtn {
+    padding: 2px 10px;
+  }
+
+  td a,
+  td button {
+    text-wrap: nowrap !important;
+  }
+}
